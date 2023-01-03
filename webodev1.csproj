@@ -69,7 +69,7 @@
   <ItemGroup>
     <Content Include="bilgi.css" />
     <Content Include="bilgi.html" />
-    <Content Include="giris.html" />
+    <Content Include="index.html" />
     <Content Include="iletisim.css" />
     <Content Include="sehrimiz.css" />
     <Content Include="style.css" />
