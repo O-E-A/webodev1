@@ -69,6 +69,20 @@
   <ItemGroup>
     <Content Include="bilgi.css" />
     <Content Include="bilgi.html" />
+    <Content Include="img\close.png" />
+    <Content Include="img\dere.jpg" />
+    <Content Include="img\dogancay-selalesi-sakarya.jpg" />
+    <Content Include="img\fotograf.jpeg" />
+    <Content Include="img\github.jpg" />
+    <Content Include="img\instagram-new-2016-logo-4773FE3F99-seeklogo.com.png" />
+    <Content Include="img\karasu.jpg" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\Maden_Deresi_Şelale-Kocaali-Sakarya.jpg" />
+    <Content Include="img\next.png" />
+    <Content Include="img\prev.png" />
+    <Content Include="img\Sakarya_tatankaları_png_logo.png" />
+    <Content Include="img\sapanca.jpg" />
+    <Content Include="img\youtube-logo-6019878_960_720.png" />
     <Content Include="index.html" />
     <Content Include="iletisim.css" />
     <Content Include="sehrimiz.css" />
@@ -89,9 +103,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
