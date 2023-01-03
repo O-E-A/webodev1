@@ -111,62 +111,37 @@
         margin-bottom: 12em;
     }
 }
-
-.breadcrumb {
+ul.breadcrumb {
+    padding: 5px 8px;
     list-style: none;
-    overflow: hidden;
-    font-size: 15px;
-    font-family: sans-serif;
+    background-color: #eee;
 }
 
-    .breadcrumb li a {
-        color: white;
-        text-decoration: none;
-        padding: 10px 0 10px 40px;
-        position: relative;
-        float: left;
-        background-color: cadetblue;
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 10px;
+        color: currentColor;
     }
 
-        .breadcrumb li a:after {
-            content: " ";
-            display: block;
-            width: 0;
-            height: 0;
-            border-top: 50px solid transparent;
-            border-bottom: 50px solid transparent;
-            border-left: 30px solid cadetblue;
-            position: absolute;
-            top: 50%;
-            margin-top: -50px;
-            left: 100%;
-            z-index: 2;
+        ul.breadcrumb li + li:before {
+            padding: 4px;
+            color: cornflowerblue;
+            content: "/\00a0";
         }
 
-        .breadcrumb li a:before {
-            content: " ";
-            display: block;
-            width: 0;
-            height: 0;
-            border-top: 50px solid transparent;
-            border-bottom: 50px solid transparent;
-            border-left: 30px solid white;
-            position: absolute;
-            top: 50%;
-            margin-top: -50px;
-            margin-left: 1px;
-            left: 100%;
-            z-index: 1;
+        ul.breadcrumb li a {
+            color: cornflowerblue;
+            text-decoration: none;
         }
 
-    .breadcrumb li:first-child a {
-        padding-left: 10px;
-    }
+            ul.breadcrumb li a:hover {
+                color: #01447e;
+                text-decoration: underline;
+            }
 
-    .breadcrumb li a:hover {
-        background: darkcyan;
-    }
 
-        .breadcrumb li a:hover:after {
-            border-left-color: darkcyan !important;
-        }
+    
+
+    
+
+

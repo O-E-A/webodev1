@@ -70,10 +70,12 @@
     <Content Include="bilgi.css" />
     <Content Include="bilgi.html" />
     <Content Include="giris.html" />
+    <Content Include="iletisim.css" />
+    <Content Include="sehrimiz.css" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="İletisim.html" />
-    <Content Include="Şehrimiz.html" />
+    <Content Include="sehrimiz.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
